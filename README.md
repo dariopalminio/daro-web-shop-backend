@@ -26,6 +26,13 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Installation from zero
+
+sudo npm i -g @nestjs/cli
+nest new daro-web-shop-backend
+npm install dotenv
+npm install nodemailer
+
 ## Installation
 
 ```bash
