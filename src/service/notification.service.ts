@@ -22,7 +22,7 @@ export class NotificationService {
     `;
 
     try {
-      const r = this.sendEmail("Subject Test", contactDTO.email, contentHTML);
+      //const r = this.sendEmail("Subject Test", contactDTO.email, contentHTML);
       return "OK!!!!!!";
     } catch (e) {
       return "Bad";
